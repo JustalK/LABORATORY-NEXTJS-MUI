@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+
+  &_left {
+    padding: 20px;
+    width: 300px;
+    height: 100vh;
+    background: #e2e2e2;
+  }
+
+  &_right {
+    padding: 20px;
+    flex-grow: 1;
+  }
+}
