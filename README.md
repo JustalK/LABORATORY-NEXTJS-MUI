@@ -1,11 +1,6 @@
-# STATIC-APP
+# LABORATORY-NEXTJS-MATERIAL-UI
 
-[![CircleCI](https://circleci.com/gh/JustalK/STATIC-APP.svg?style=svg)](https://circleci.com/gh/JustalK/STATIC-APP)
+This project is a set of different component adapted from material ui. The library gave a lot of example but there are not well presented and mix the css with the code.
+I try to do something different here for getting an easy way to plug those component and since I am the one who built them, I know how to use them.
 
-This project is a fresh starter for creating a **static website** with all my favorite tools.
-
-The server is handled with `Next.js`. The data are receive with `@apollo/client` from `GraphCMS`.
-
-The continuous integration is handled with `CircleCI`. Finally, I use `Cypress` for making the e2e tests.
-
-Before committing, `Husky` will force the tests to be run, it will also check the coverage of the app to be at 100% and will validate or not the new push.
+Obviously I am using `material-ui` and `next.js` as the core technology.
