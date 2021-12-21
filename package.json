@@ -8,18 +8,14 @@
     "build": "next build",
     "linter": "npx eslint --fix src --ext .js",
     "build:docs": "npx jsdoc -r ./src ./README.md",
-    "cypress:coverage": "check-total --min 100",
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@apollo/client": "^3.3.11",
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
     "babel-plugin-istanbul": "^6.0.0",
-    "graphql": "^15.5.0",
-    "graphql-request": "^3.4.0",
     "husky": "^5.1.2",
     "next": "10.0.7",
     "nyc": "^15.1.0",
@@ -28,16 +24,13 @@
     "sass": "^1.32.11"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.9.2",
-    "check-code-coverage": "^1.10.0",
     "eslint": "^7.25.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.2",
-    "jsdoc": "^3.6.6",
-    "start-server-and-test": "^1.12.0"
+    "jsdoc": "^3.6.6"
   },
   "nyc": {
     "reporter": [
